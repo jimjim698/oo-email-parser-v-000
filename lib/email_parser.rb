@@ -11,7 +11,7 @@ def initialize(emails)
   @emails = emails
 end
 
-def parse(emails)
+def parse
 parsed_emails = emails.split(/[ ,]+/)
 
 end
