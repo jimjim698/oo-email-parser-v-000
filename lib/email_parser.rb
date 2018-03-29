@@ -17,8 +17,9 @@ parsed_emails = emails.split(/[ ,]+/)
 parsed_emails.each do |email|
 if parsed_array.include?(email)
   false
-else 
+else
   parsed_array<<email
+end
 end
 parsed_array
 end
